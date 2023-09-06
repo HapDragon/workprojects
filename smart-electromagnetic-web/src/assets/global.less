@@ -1,0 +1,1068 @@
+/* 默认基础样式 */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td,
+p,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: puhui_Medium_65;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+input {
+  border: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+}
+
+.el-table tr {
+  background-color: transparent;
+}
+
+.el-table tbody tr:hover > td {
+  background: #1f8d9199 !important;
+}
+
+/* start滚动条样式 */
+.scrollLine::-webkit-scrollbar {
+  /*滚动条整体样式*/
+  width: 5px;
+  /*高宽分别对应横竖滚动条的尺寸*/
+  height: 5px;
+}
+
+.scrollLine::-webkit-scrollbar-thumb {
+  /*滚动条里面小方块*/
+  border-radius: 10px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 1);
+  background: #dcdcdc;
+}
+
+.scrollLine::-webkit-scrollbar-track {
+  /*滚动条里面轨道*/
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 1);
+  border-radius: 10px;
+  background: #535353;
+}
+
+/* end滚动条样式 */
+// gui样式
+.control-active {
+  color: cyan;
+}
+
+.no-pointer-events {
+  pointer-events: none;
+}
+
+.control-disabled {
+  color: #888;
+  text-decoration: line-through;
+}
+
+.cesium-viewer-navigationContainer {
+  display: none;
+}
+
+// 右侧渐入代码
+.RightIn-leave,
+.RightIn-enter-to {
+  // 动画终点
+  transform: translateX(0px);
+}
+
+.RightIn-enter,
+.RightIn-leave-to {
+  // 动画起点
+  transform: translateX(600px);
+}
+
+.RightIn-leave-active,
+.RightIn-enter-active {
+  /* 定义 出场动画 过程 */
+  transition: all 0.4s ease;
+}
+
+// 左侧渐入
+.LeftIn-leave,
+.LeftIn-enter-to {
+  // 动画终点
+  transform: translateX(0px);
+}
+
+.LeftIn-enter,
+.LeftIn-leave-to {
+  // 动画起点
+  transform: translateX(-600px);
+}
+
+.LeftIn-leave-active,
+.LeftIn-enter-active {
+  /* 定义 出场动画 过程 */
+  transition: all 0.4s ease;
+}
+
+/*所有通用class样式*/
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+input {
+  outline: none;
+}
+
+.height100percent {
+  height: 100%;
+}
+
+.height99percent {
+  height: 99%;
+}
+
+.height97percent {
+  height: 97%;
+}
+
+.height90percent {
+  height: 90%;
+}
+
+.height80percent {
+  height: 80%;
+}
+
+.height50percent {
+  height: 50%;
+}
+
+.height20percent {
+  height: 20%;
+}
+
+.height20px {
+  height: 20px;
+}
+
+.height30px {
+  height: 30px;
+}
+
+.height24px {
+  height: 24px;
+}
+
+.width100percent {
+  width: 100%;
+}
+
+.width98percent {
+  width: 98%;
+}
+
+.width97percent {
+  width: 97%;
+}
+
+.width95percent {
+  width: 95%;
+}
+
+.width90percent {
+  width: 90%;
+}
+
+.width80percent {
+  width: 80%;
+}
+
+.width75percent {
+  width: 75%;
+}
+
+.width70percent {
+  width: 70%;
+}
+
+.width50percent {
+  width: 50%;
+}
+
+.width30percent {
+  width: 30%;
+}
+
+.width25percent {
+  width: 25%;
+}
+
+.width20percent {
+  width: 20%;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-fixed {
+  position: fixed;
+}
+
+.margin-0pxauto {
+  margin: 0px auto;
+}
+
+.margin-top-3px {
+  margin-top: -3px;
+}
+
+.margin-top1px {
+  margin-top: 1px;
+}
+
+.margin-top2px {
+  margin-top: 2px;
+}
+
+.margin-top5px {
+  margin-top: 5px;
+}
+
+.margin-top10px {
+  margin-top: 10px;
+}
+
+.margin-top8px {
+  margin-top: 8px;
+}
+
+.margin-top7px {
+  margin-top: 7px;
+}
+
+.margin-top6px {
+  margin-top: 6px;
+}
+
+.margin-top4px {
+  margin-top: 4px;
+}
+
+.margin-top12px {
+  margin-top: 12px;
+}
+
+.margin-top14px {
+  margin-top: 14px;
+}
+
+.margin-top15px {
+  margin-top: 15px;
+}
+
+.margin-top16px {
+  margin-top: 16px;
+}
+
+.margin-top18px {
+  margin-top: 18px;
+}
+
+.margin-top22px {
+  margin-top: 22px;
+}
+
+.margin-top24px {
+  margin-top: 24px;
+}
+
+.margin-top26px {
+  margin-top: 26px;
+}
+
+.margin-top25px {
+  margin-top: 25px;
+}
+
+.margin-top20px {
+  margin-top: 20px;
+}
+
+.margin-top30px {
+  margin-top: 30px;
+}
+
+.margin-top40px {
+  margin-top: 40px;
+}
+
+.margin-top50px {
+  margin-top: 50px;
+}
+
+.margin-top60px {
+  margin-top: 60px;
+}
+
+.margin-top60px {
+  margin-top: 60px;
+}
+
+.margin-top100px {
+  margin-top: 100px;
+}
+
+.margin-top3px {
+  margin-top: -3px;
+}
+
+.margin-left1px {
+  margin-left: 1px;
+}
+
+.margin-left3px {
+  margin-left: 3px;
+}
+
+.margin-left4px {
+  margin-left: 4px;
+}
+
+.margin-left5px {
+  margin-left: 5px;
+}
+
+.margin-left6px {
+  margin-left: 6px;
+}
+
+.margin-left7px {
+  margin-left: 7px;
+}
+
+.margin-left8px {
+  margin-left: 8px;
+}
+
+.margin-left9px {
+  margin-left: 9px;
+}
+
+.margin-left10px {
+  margin-left: 10px;
+}
+
+.margin-left11px {
+  margin-left: 11px;
+}
+
+.margin-left12px {
+  margin-left: 12px;
+}
+
+.margin-left14px {
+  margin-left: 14px;
+}
+
+.margin-left15px {
+  margin-left: 15px;
+}
+
+.margin-left16px {
+  margin-left: 16px;
+}
+
+.margin-left17px {
+  margin-left: 17px;
+}
+
+.margin-left20px {
+  margin-left: 20px;
+}
+
+.margin-left22px {
+  margin-left: 22px;
+}
+
+.margin-left24px {
+  margin-left: 24px;
+}
+
+.margin-left25px {
+  margin-left: 25px;
+}
+
+.margin-left26px {
+  margin-left: 26px;
+}
+
+.margin-left30px {
+  margin-left: 30px;
+}
+
+.margin-left35px {
+  margin-left: 35px;
+}
+
+.margin-left37px {
+  margin-left: 37px;
+}
+
+.margin-left38px {
+  margin-left: 38px;
+}
+
+.margin-left48px {
+  margin-left: 48px;
+}
+
+.margin-left3 {
+  margin-left: 3%;
+}
+
+.margin-right5px {
+  margin-right: 5px;
+}
+
+.margin-right8px {
+  margin-right: 8px;
+}
+
+.margin-right12px {
+  margin-right: 12px;
+}
+
+.margin-right14px {
+  margin-right: 14px;
+}
+
+.margin-right18px {
+  margin-right: 18px;
+}
+
+.margin-right20px {
+  margin-right: 20px;
+}
+
+.margin-right26px {
+  margin-right: 26px;
+}
+
+.margin-right30px {
+  margin-right: 30px;
+}
+
+.margin-right35px {
+  margin-right: 35px;
+}
+
+.margin-right52px {
+  margin-right: 52px;
+}
+
+.margin-right45px {
+  margin-right: 45px;
+}
+
+.margin-bottom10px {
+  margin-bottom: 10px;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+.margin-left-auto {
+  margin-left: auto;
+}
+
+.paddingleftright24px {
+  padding: 0px 24px;
+}
+
+.paddingleft24px {
+  padding-left: 24px;
+}
+
+.display-inlineblock {
+  display: inline-block;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-grid {
+  display: grid;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.display-none {
+  display: none;
+}
+
+.color-white {
+  color: white;
+}
+
+.color-whitecc {
+  color: #ffffffcc;
+}
+
+.color-white99 {
+  color: #ffffff99;
+}
+
+.color-yellow {
+  color: yellow;
+}
+
+.color-red {
+  color: red;
+}
+
+.color-ff9e00 {
+  color: #ff9e00;
+}
+
+.color-51f0bd {
+  color: #51f0bd;
+}
+
+.color-50f1be {
+  color: #50f1be;
+}
+
+.color-289e78 {
+  color: #289e78;
+}
+
+.color-999999 {
+  color: #999999;
+}
+
+.color-cccccc {
+  color: #cccccc;
+}
+
+.color-whitehover50f1be {
+  color: white;
+}
+
+.color-whitehover50f1be:hover {
+  color: #50f1be;
+}
+
+.color-049eff {
+  color: #049eff;
+}
+
+.verticlealign-bottom {
+  vertical-align: bottom;
+}
+
+.verticlealign-middle {
+  vertical-align: middle;
+}
+
+.textalign-center {
+  text-align: center;
+}
+
+.textalign-left {
+  text-align: left;
+}
+
+.textalign-right {
+  text-align: right;
+}
+
+.TextDecoration-underline {
+  text-decoration: underline;
+}
+
+.TextDecoration-blink {
+  text-decoration: blink;
+}
+
+.FontSize-6px {
+  font-size: 6px;
+}
+
+.FontSize-8px {
+  font-size: 8px;
+}
+
+.FontSize-10px {
+  font-size: 10px;
+}
+
+.FontSize-11px {
+  font-size: 11px;
+}
+
+.FontSize-12px {
+  font-size: 12px;
+}
+
+.FontSize-13px {
+  font-size: 13px;
+}
+
+.FontSize-14px {
+  font-size: 14px;
+}
+
+.FontSize-15px {
+  font-size: 15px;
+}
+
+.FontSize-16px {
+  font-size: 16px;
+}
+
+.FontSize-17px {
+  font-size: 17px;
+}
+
+.FontSize-18px {
+  font-size: 18px;
+}
+
+.FontSize-20px {
+  font-size: 20px;
+}
+
+.FontSize-22px {
+  font-size: 22px;
+}
+
+.FontWeight-Bold {
+  font-weight: bold;
+}
+
+.FontWeight-Normal {
+  font-weight: normal;
+}
+
+.TextDecoration-underline {
+  text-decoration: underline;
+}
+
+.TextDecoration-blink {
+  text-decoration: blink;
+}
+
+.overflow_x-hidden {
+  overflow-x: hidden;
+}
+
+.horizon-center {
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.whiteborder1PX {
+  border: 1px solid white;
+}
+
+.ccccccborder1PX {
+  border: 1px solid #cccccc;
+}
+
+.border-radius6PX {
+  border-radius: 6px;
+}
+
+.border-radius4PX {
+  border-radius: 4px;
+}
+
+.border-radius50percent {
+  border-radius: 50%;
+}
+
+.bordernone {
+  border: none;
+}
+
+.transparentBk {
+  background: transparent;
+}
+
+.lineheight-60px {
+  line-height: 60px;
+}
+
+.lineheight-25px {
+  line-height: 25px;
+}
+
+.lineheight-21px {
+  line-height: 21px;
+}
+
+.lineheight-20px {
+  line-height: 20px;
+}
+
+.lineheight-18px {
+  line-height: 18px;
+}
+
+.lineheight-16px {
+  line-height: 16px;
+}
+
+.lineheight-15px {
+  line-height: 15px;
+}
+
+.lineheight-14px {
+  line-height: 14px;
+}
+
+.outline-none {
+  outline: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.background-left51f0bdff_00 {
+  background: -webkit-linear-gradient(left, #51f0bd, #51f0bd00);
+}
+
+.background-left51f0bd_00_ff_00 {
+  background: -webkit-linear-gradient(left, #51f0bd00, #51f0bd, #51f0bd00);
+}
+
+/*0a1121不透明度80%*/
+.background-0a1121cc {
+  background: #0a1121cc;
+}
+
+/*0a1121不透明度70%*/
+.background-0a1121b2 {
+  background: #0a1121b2;
+}
+
+/*0a1121不透明度90%*/
+.background-0a1121e5 {
+  background: #0a1121e5;
+}
+
+/*000000不透明度60%*/
+.background-00000099 {
+  background: #00000099;
+}
+
+.background100100 {
+  background: 100% 100%
+}
+
+.background50f1be1e {
+  background-color: #50f1be1e;
+}
+
+.bk-13213ccc {
+  background: #13213ccc;
+}
+
+.background-122134 {
+  background: #122134;
+}
+
+.background-top122134cc-ff {
+  background: -webkit-linear-gradient(top, #122134cc, #122134ff);
+}
+
+.background-289e78 {
+  background: #289e78;
+}
+
+.background-0a1221E5 {
+  background: #0a1221e5;
+}
+
+.rotate-90deg {
+  transform: rotate(90deg);
+}
+
+.rotate-180deg {
+  transform: rotate(180deg);
+}
+
+.rotate-270deg {
+  transform: rotate(270deg);
+}
+
+/*自定义竖滚动栏样式-不显示*/
+.invisible_scrollheight {
+  overflow-y: hidden;
+}
+
+.invisible_scrollheight:hover {
+  overflow-y: auto;
+}
+
+.invisible_scrollheight::-webkit-scrollbar {
+  width: 0px;
+}
+
+.invisible_scrollheight::-webkit-scrollbar-thumb {
+  width: 0px;
+}
+
+/*自定义竖滚动栏样式-显示*/
+.visible_scrollheight {
+  overflow-y: hidden;
+}
+
+.visible_scrollheight:hover {
+  overflow-y: auto;
+}
+
+.visible_scrollheight::-webkit-scrollbar {
+  background: transparent;
+  width: 4px;
+}
+
+.visible_scrollheight::-webkit-scrollbar-thumb {
+  background: #50F1BE;
+  border-radius: 2px;
+}
+
+.visible_scrollwidth {
+  overflow-x: hidden;
+}
+
+.visible_scrollwidth:hover {
+  overflow-x: auto;
+}
+
+.visible_scrollwidth::-webkit-scrollbar {
+  background: transparent;
+  height: 4px;
+}
+
+.visible_scrollwidth::-webkit-scrollbar-thumb {
+  background: #50F1BE;
+  border-radius: 2px;
+}
+
+/*自定义横滚动栏样式-不显示*/
+.invisible_scrollwidth {
+  overflow-x: auto;
+}
+
+.invisible_scrollwidth:hover {
+  overflow-y: hidden;
+}
+
+.invisible_scrollwidth::-webkit-scrollbar {
+  height: 0px;
+}
+
+.invisible_scrollwidth::-webkit-scrollbar-thumb {
+  height: 0px;
+}
+
+/*横排类似砖块一样自适应排列容器样式*/
+.brickautoresizecontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.bottombtn {
+  width: 96px;
+  height: 30px;
+  border: 1px solid #289e78;
+  padding: 0px;
+  outline: none;
+  margin-top: 44px;
+}
+
+.returnBtn-userManage:hover {
+  color: #51F0BD;
+}
+
+.returnBtn-userManage:focus {
+  color: #51F0BD;
+}
+
+/*通用弹出窗样式*/
+.partcomwithborder {
+  background: linear-gradient(to bottom, #22e8e2 0px, #22e8e2 2px, transparent 3px, transparent 100%) left top no-repeat,
+  linear-gradient(to right, #22e8e2 0px, #22e8e2 2px, transparent 3px, transparent 100%) left top no-repeat,
+  linear-gradient(to bottom, #22e8e2 0px, #22e8e2 2px, transparent 3px, transparent 100%) right top no-repeat,
+  linear-gradient(to left, #22e8e2 0px, #22e8e2 2px, transparent 3px, transparent 100%) right top no-repeat,
+  linear-gradient(to top, #22e8e2 0px, #22e8e2 2px, transparent 3px, transparent 100%) left bottom no-repeat,
+  linear-gradient(to right, #22e8e2 0px, #22e8e2 2px, transparent 3px, transparent 100%) left bottom no-repeat,
+  linear-gradient(to top, #22e8e2 0px, #22e8e2 2px, transparent 3px, transparent 100%) right bottom no-repeat,
+  linear-gradient(to left, #22e8e2 0px, #22e8e2 2px, transparent 3px, transparent 100%) right bottom no-repeat;
+  background-size: 18px 18px;
+  padding: 4px;
+  padding: 1px;
+  width: 200px;
+  height: 200px;
+  top: 0px;
+  position: fixed;
+}
+
+.partcomwithbordersubcontent {
+  border: 1px solid #5be3c8;
+  background: #07645e66;
+  width: 100%;
+  height: 100%;
+}
+
+.dialogcomwithbordersubcontent {
+  border: 1px solid #22e8e27f;
+  padding-top: 40px;
+  box-sizing: border-box;
+}
+
+.dialogcomwithborder-header {
+  height: 40px;
+
+  background-color: #091426;
+  margin-top: -40px;
+}
+
+.dialogcomwithbordertitle {
+  line-height: 40px;
+}
+
+.dialogcomwithborderclose {
+  width: 14px;
+  height: 14px;
+  float: right;
+  margin-top: 13px;
+  margin-right: 8px;
+}
+
+.dialogcomwithborderheadhalo {
+  top: -8px;
+}
+
+.dialogcomwithborder-content {
+  height: 100%;
+  background: linear-gradient(to right, #122134cc 0px, #122134ff 50%, #122134cc 100%);
+}
+
+//@font-face{
+//	font-family: "fangzhenggb";
+//	src: url('../../../public/font/Redocn_2010020112245834.ttf');
+//	src:url("../../../public/font/Alibaba_PuHuiTi_2.0_105_Heavy_105_Heavy.ttf");
+//}
+
+//地图弹框通用样式
+.popdialog {
+  position: absolute;
+  z-index: 9;
+  color: #ffffff;
+  .closeResourcePop {
+    width: 1.6vh;
+    height: 1.6vh;
+    position: absolute;
+    z-index: 999;
+    top: 1.6vh;
+    right: 1.6vh;
+    cursor: pointer;
+    color: #fff;
+    font-size: 2vh;
+    background: url('/img/common/close.svg') no-repeat;
+    background-size: 100% 100%;
+  }
+  .titleDiv {
+    user-select: none;
+    width: 100%;
+    height: 5vh;
+    line-height: 5vh;
+    text-align: left;
+    padding-left: 20px;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+
+    /*background-color: #0a4e7e;*/
+
+    background: url("../components/Dialog/assets/titlebk-left.png") left top no-repeat,
+    url("../components/Dialog/assets/titlebk-right.png") right top no-repeat,
+    url("../components/Dialog/assets/titlebk.png") center top repeat-x;
+
+    background-size: auto 100%, auto 100%, auto 100%;
+
+  }
+  .contetnDiv {
+    background: url("../components/Dialog/assets/roundborderleft.png") left bottom no-repeat,
+    url("../components/Dialog/assets/roundborderright.png") right bottom no-repeat,
+    linear-gradient(to bottom, #1288bbcc, #15415fcc, #18252ecc);
+    background-size: 12px 12px, 12px 12px, 100% 100%;
+
+    /*background-color: #0a4e7e66;*/
+    width: 100%;
+    height: calc(100% - 5vh);
+
+    font-size: 0.9rem;
+  }
+  .rowitem {
+    width: 100%;
+    height:32px;
+    line-height:32px;
+    .col{
+      margin-right:12px;
+    }
+
+  }
+}
+
+
+

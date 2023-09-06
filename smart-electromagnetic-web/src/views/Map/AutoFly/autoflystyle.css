@@ -1,0 +1,58 @@
+#autofly {
+    position: absolute;
+    bottom: 0vh;
+	right: 7.4vh;
+	width: 35vh;
+	height: 26vh;
+	background: #02101299;
+	padding: 0.55vh 1.67vh;
+	box-sizing: border-box;
+    user-select: none;
+    border: 2px solid #24b4b999;
+    border-radius: 3px;
+}
+.controltitle{
+    color: #ffffff;
+    text-align: center;
+    font-size: 2vh;
+}
+
+#autofly .routecontainer{
+    max-height: 200px;
+}
+
+#autofly .closebtn {
+	width: 1.6vh;
+	height: 1.6vh;
+	float: right;
+	margin-top: -2vh;
+	cursor: pointer;
+	outline: none;
+}
+#autofly .intervalline {
+	width: 100%;
+	height: 0.25vh;
+	margin: 0.55vh auto;
+	background-image: linear-gradient(to right, #24b4b900, #24b4b9, #24b4b900);
+}
+#autofly .flylineitem {
+	color: #ccc;
+	height: 2.4vh;
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 1.6vh;
+	line-height: 2.4vh;
+}
+#autofly .flylineitem:hover {
+	color: #72ddec;
+	cursor: pointer;
+}
+#autofly .flylineitem span {
+	margin-left: 1.2vh;
+	font-family: 'puhui_Regular_55';
+}
+#autofly .flylineitem .contentinterval {
+    height: 0.2vh;
+	background-color: #24b4b91a;
+	margin-top: 0.1vh;
+}

@@ -1,0 +1,43 @@
+[
+  {
+    "list": [
+      [118.81712964357263,32.146556178457075],
+      [118.81986405585273,32.14659863831158],
+      [118.82001047752182,32.14460881857511],
+      [118.81802690396094,32.143980239849846]
+    ],
+    "id": 1,
+    "baseHeight": 5,
+    "wallHeight": 40,
+    "offsetHeight": 0,
+    "MaterialTypes": [
+      "WallGradient",
+      "WallLineFlow2"
+    ],
+    "TextOptions": {
+      "scale": 0.75,
+      "height": 45,
+      "angle": 0,
+      "text": "仁恒公园世纪",
+      "padding": [
+        35,
+        20,
+        20,
+        20
+      ],
+      "fontOptions": {
+        "font": "25px sans-serif",
+        "fillColor": "white",
+        "strokeColor": "#3e59a9"
+      },
+      "scaleByDistance": [
+        10000,
+        1,
+        30000,
+        0.2
+      ]
+    }
+
+
+  }
+]

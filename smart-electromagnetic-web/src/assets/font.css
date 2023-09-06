@@ -1,0 +1,55 @@
+/**
+ * Created by wqy
+ * Date 2023/3/30 14:43
+ * Description
+ */
+
+@font-face{
+    font-family: "puhui_thin_35";
+    src:url("/font/puhui/Alibaba_PuHuiTi_2.0_35_Thin_35_Thin.ttf");
+}
+@font-face{
+    font-family: "puhui_thin_45";
+    src:url("/font/puhui/Alibaba_PuHuiTi_2.0_45_Light_45_Light.ttf");
+}
+
+@font-face{
+    font-family: "puhui_Regular_55";
+    src:url("/font/puhui/Alibaba_PuHuiTi_2.0_55_Regular_55_Regular.ttf");
+}
+@font-face{
+    font-family: "puhui_Regular_85";
+    src:url("/font/puhui/Alibaba_PuHuiTi_2.0_55_Regular_85_Bold.ttf");
+}
+@font-face{
+    font-family: "puhui_Medium_65";
+    src:url("/font/puhui/Alibaba_PuHuiTi_2.0_65_Medium_65_Medium.ttf");
+}
+@font-face{
+    font-family: "puhui_SemiBold_75";
+    src:url("/font/puhui/Alibaba_PuHuiTi_2.0_75_SemiBold_75_SemiBold.ttf");
+}
+@font-face{
+    font-family: "puhui_ExtraBold_95";
+    src:url("/font/puhui/Alibaba_PuHuiTi_2.0_95_ExtraBold_95_ExtraBold.ttf");
+}
+@font-face{
+    font-family: "puhui_Heavy_105";
+    src:url("/font/puhui/Alibaba_PuHuiTi_2.0_105_Heavy_105_Heavy.ttf");
+}
+@font-face{
+    font-family: "puhui_Black_115";
+    src:url("/font/puhui/Alibaba_PuHuiTi_2.0_115_Black_115_Black.ttf");
+}
+
+
+@font-face{
+    font-family: "puhui_Shuhei_Bold";
+    src:url("/font/shuhei/Alimama_ShuHeiTi_Bold.ttf");
+}
+@font-face {
+    font-family: "keji";
+    src: url("/font/keji.TTF"); /*引入字体*/
+}
+
+
